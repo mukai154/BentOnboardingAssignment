@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  SignUpLoginView.swift
 //  BentOnboardingAssignment
 //
 //  Created by Mukai Selekwa on 7/5/23.
@@ -7,7 +7,10 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct SignUpLoginView: View {
+    
+    // MARK: - Body
+    
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -21,6 +24,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        SignUpLoginView()
     }
 }
