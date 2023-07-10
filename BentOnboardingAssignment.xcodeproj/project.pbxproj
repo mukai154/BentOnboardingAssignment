@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		26D2B2082A55FE2000785E97 /* BentOnboardingAssignmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D2B2072A55FE2000785E97 /* BentOnboardingAssignmentApp.swift */; };
-		26D2B20A2A55FE2000785E97 /* SignUpLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D2B2092A55FE2000785E97 /* SignUpLoginView.swift */; };
+		26D2B20A2A55FE2000785E97 /* CreateProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D2B2092A55FE2000785E97 /* CreateProfileView.swift */; };
 		26D2B20C2A55FE2100785E97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26D2B20B2A55FE2100785E97 /* Assets.xcassets */; };
 		26D2B20F2A55FE2100785E97 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26D2B20E2A55FE2100785E97 /* Preview Assets.xcassets */; };
 		26D2B2192A55FE2100785E97 /* BentOnboardingAssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D2B2182A55FE2100785E97 /* BentOnboardingAssignmentTests.swift */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		26D2B2042A55FE2000785E97 /* BentOnboardingAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BentOnboardingAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26D2B2072A55FE2000785E97 /* BentOnboardingAssignmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BentOnboardingAssignmentApp.swift; sourceTree = "<group>"; };
-		26D2B2092A55FE2000785E97 /* SignUpLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpLoginView.swift; sourceTree = "<group>"; };
+		26D2B2092A55FE2000785E97 /* CreateProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProfileView.swift; sourceTree = "<group>"; };
 		26D2B20B2A55FE2100785E97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26D2B20E2A55FE2100785E97 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		26D2B2142A55FE2100785E97 /* BentOnboardingAssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BentOnboardingAssignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,7 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				26D2B2072A55FE2000785E97 /* BentOnboardingAssignmentApp.swift */,
-				26D2B2092A55FE2000785E97 /* SignUpLoginView.swift */,
+				26D2B2092A55FE2000785E97 /* CreateProfileView.swift */,
 				26D2B20B2A55FE2100785E97 /* Assets.xcassets */,
 				26D2B20D2A55FE2100785E97 /* Preview Content */,
 			);
@@ -257,7 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26D2B20A2A55FE2000785E97 /* SignUpLoginView.swift in Sources */,
+				26D2B20A2A55FE2000785E97 /* CreateProfileView.swift in Sources */,
 				26D2B2082A55FE2000785E97 /* BentOnboardingAssignmentApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,6 +420,7 @@
 				DEVELOPMENT_TEAM = Q7J755A3GA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Bent Onboarding Assignement";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +450,7 @@
 				DEVELOPMENT_TEAM = Q7J755A3GA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Bent Onboarding Assignement";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

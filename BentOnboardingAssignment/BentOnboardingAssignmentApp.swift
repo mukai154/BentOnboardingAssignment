@@ -11,7 +11,7 @@ import SwiftUI
 struct BentOnboardingAssignmentApp: App {
     var body: some Scene {
         WindowGroup {
-            SignUpLoginView()
+            CreateProfileView()
         }
     }
 }
